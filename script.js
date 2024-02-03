@@ -1,4 +1,4 @@
-const URL = 'https://i.pravatar.cc/';
+const URL = 'https://i.pravatar.cc/250?img=';
 const container = document.querySelector('.container');
 
 numImages = 24;
@@ -11,7 +11,7 @@ function loadImages(numImages){
     let i = 0;
     while(i<numImages){
         const img = document.createElement('img');
-        img.src = `${URL}${250}?img=${getRandomNumber()}`;
+        img.src = `${URL}${getRandomNumber()}`;
         container.appendChild(img);
         i++;
     }
