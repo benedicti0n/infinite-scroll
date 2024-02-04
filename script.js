@@ -20,7 +20,6 @@ function loadImages(numImages){
 loadImages(numImages)
 
 
-
 window.addEventListener('scroll', () => {
     if(window.scrollY + window.innerHeight >= document.documentElement.scrollHeight){
         loadImages(numImages);
